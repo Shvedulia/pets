@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+header{
+  background-color: rgb(149, 21, 79);
+  font-size: 16px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 680px;
+}
+
+.menu {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.menu li {
+  display: inline-block;
+  border-right: 1px solid white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* 
+h1::before {
+  content: '\2615';
+  font-size: 12px;
+}
+
+h1::after {
+  content: '&';
+  font-size: 12px;
+} */
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li:last-child {
+    border-right: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.list li::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: pink;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+
+.pink{
+color: pink;
+}
+
+.dred{
+  color:rgb(149, 21, 79) ;
+}
+
+.background{
+  background-color: rgb(241, 243, 246);
+  border: solid lightgrey 2px;
+  padding: 13px; 
+}
+
+h2{
+  color: rgb(149, 21, 79) ;
+  border-bottom: solid lightgrey 1px ;
+  padding-bottom: 10px;
+  font-size: 1em;
+  margin-bottom: 12px;
+}
+
+.logo{
+  display: inline-block;
+  margin: 30px 10px;
+}
+
+.background{
+  margin-bottom: 20px;
+}
+
+.background li{
+  padding-left: 18px;
+}
+
+.background_2 img{
+  float: left;
+  padding-right: 20px;
+}
+
+main {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside{
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.girl{
+  margin: 30px;
+}
+
+.sideh{
+  border-bottom: 0px;
+  margin: 20px 20px 0 20px;
+}
+
+.sided{
+  margin-left: 20px;
+}
+
+.related {
+  border: 1px solid lightgrey;
+  padding: 10px 0 10px 18px;
+  background: rgb(241, 243, 246);
+  margin-left: 20px;
+}
+
+.related a {
+  color: rgb(196, 39, 65);
+  font-size: 12px;
+}
+
+.related li {
+  list-style: none;
+  margin-bottom: 7px;
+}
+
+.related a:before {
+  content: url(marker-min.png);
+  padding-right: 8px;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px 0;
+  background: rgb(241, 243, 246);
+  border-top: 0.7px solid lightgrey;
+}
+
+footer li {
+  display: inline-block;
+  border-right: 1px solid black;
+  padding: 0 5px;
+}
+
+footer a {
+  color:rgb(149, 37, 37);
+}
+
+footer li:last-child {
+  border-right: none;
+}
+
+footer li:first-child {
+  padding-left: 0;
+}
